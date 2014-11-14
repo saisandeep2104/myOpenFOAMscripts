@@ -14,6 +14,8 @@ levelRef = inputDict["SHMParams"]["cellSize"]["levelRef"]
 cell	= inputDict["caseTypes"]["windRose"]["blockMeshCellSize"]
 z0Vec = [Davenport(z0,-1),z0,Davenport(z0,1)]
 
+
+
 n = len(sys.argv)
 if len(sys.argv)>1:
 	for fNum in range(1,n):
